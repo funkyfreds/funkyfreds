@@ -1,1 +1,1 @@
-role R { method m (*@a) { ... } }; class C does R { multi method m (*@a) {} } ## https://github.com/funkyfreds/funkyfreds/issues/1
+my @S = (1,), { (0, |@^l) »+« (|(@^l »*« @^l.keys), 0) } … *;  say @S.head(10); say @S.head(10).map: *.sum;

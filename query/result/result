@@ -1,114 +1,24 @@
-Bisecting: 263 revisions left to test after this (roughly 8 steps)
-[ce63be30e718c6f7aa0f2ca8c5a226de25d38dd4] Use nqp::getcurhllsym correctly
-»»»»» Testing ce63be30e718c6f7aa0f2ca8c5a226de25d38dd4
-»»»»» Script output:
-===SORRY!=== Error while compiling /tmp/01Tq_0fuOs
+¦«2015.12,2016.01.1,2016.02,2016.03,2016.04,2016.05,2016.06,2016.07.1,
+  2016.08.1,2016.09,2016.10,2016.11,7e1ede4^»:
+===SORRY!=== Error while compiling /tmp/c41aLFKGos
+Method 'm' must be implemented by C because it is required by a role
+at /tmp/c41aLFKGos:1
+ «exit code = 1»
+¦«2016.12,2017.01,2017.02,2017.03,2017.04.3,2017.05,2017.06,2017.07,
+  2017.08,2017.09,2017.10,2017.11,2017.12,2018.01,2018.02.1,2018.03,
+  2018.04.1,2018.05,2018.06,2018.08,2018.09,fd5d5bd^»:
+===SORRY!=== Error while compiling /tmp/c41aLFKGos
 Method 'm' must be implemented by C because it is required by roles: R.
-at /tmp/01Tq_0fuOs:1
+at /tmp/c41aLFKGos:1
+ «exit code = 1»
+¦«fd5d5bd,2018.10,2018.11,2018.12,2019.03.1,2019.07.1,2019.11,2020.01,
+  2020.02.1,2020.05.1,2020.06,2020.07,2020.08.2,2020.09,2020.10,2020.11,
+  2020.12,2021.02.1,2021.03,2021.04,2021.05,2021.06,2021.07,2021.08,
+  2021.09,2021.10,2021.12,2022.02,2022.03,2022.04,2022.06,2022.07,2022.12,
+  HEAD(fd75bb0)»:
 
-»»»»» Script exit code: 1
-»»»»» Bisecting by exit code
-»»»»» Current exit code is 1, exit code on “old” revision is 1
-»»»»» Note that on “old” revision exit code is normally 0, you are probably trying to find when something was fixed
-»»»»» If exit code is not the same as on “old” revision, this revision will be marked as “new”
-»»»»» Therefore, marking this revision as “old”
-»»»»» -------------------------------------------------------------------------
-»»»»» Testing c7245c4c188ef8e96d8df3a1215195e3a6e69983
-»»»»» Script output:
-===SORRY!=== Error while compiling /tmp/01Tq_0fuOs
-Method 'm' must be implemented by C because it is required by roles: R.
-at /tmp/01Tq_0fuOs:1
-
-»»»»» Script exit code: 1
-»»»»» Bisecting by exit code
-»»»»» Current exit code is 1, exit code on “old” revision is 1
-»»»»» Note that on “old” revision exit code is normally 0, you are probably trying to find when something was fixed
-»»»»» If exit code is not the same as on “old” revision, this revision will be marked as “new”
-»»»»» Therefore, marking this revision as “old”
-»»»»» -------------------------------------------------------------------------
-»»»»» Testing 2393e5386ea15a68db17dfd4af465554d95a1c87
-»»»»» Script output:
-===SORRY!=== Error while compiling /tmp/01Tq_0fuOs
-Method 'm' must be implemented by C because it is required by roles: R.
-at /tmp/01Tq_0fuOs:1
-
-»»»»» Script exit code: 1
-»»»»» Bisecting by exit code
-»»»»» Current exit code is 1, exit code on “old” revision is 1
-»»»»» Note that on “old” revision exit code is normally 0, you are probably trying to find when something was fixed
-»»»»» If exit code is not the same as on “old” revision, this revision will be marked as “new”
-»»»»» Therefore, marking this revision as “old”
-»»»»» -------------------------------------------------------------------------
-»»»»» Testing 65d4fd7144ac6455bcbe5adab65873d286788438
-»»»»» Script output:
-
-»»»»» Script exit code: 0
-»»»»» Bisecting by exit code
-»»»»» Current exit code is 0, exit code on “old” revision is 1
-»»»»» Note that on “old” revision exit code is normally 0, you are probably trying to find when something was fixed
-»»»»» If exit code is not the same as on “old” revision, this revision will be marked as “new”
-»»»»» Therefore, marking this revision as “new”
-»»»»» -------------------------------------------------------------------------
-»»»»» Testing 1ac944fc7d7a7088af770b6771373d444c1874e1
-»»»»» Cannot test this commit. Reason: Commit exists, but an executable could not be built for it
-»»»»» Therefore, skipping this revision
-»»»»» -------------------------------------------------------------------------
-»»»»» Testing 4307996ae7ab683ee01a1bf4a0419d6ab32545ac
-»»»»» Script output:
-
-»»»»» Script exit code: 0
-»»»»» Bisecting by exit code
-»»»»» Current exit code is 0, exit code on “old” revision is 1
-»»»»» Note that on “old” revision exit code is normally 0, you are probably trying to find when something was fixed
-»»»»» If exit code is not the same as on “old” revision, this revision will be marked as “new”
-»»»»» Therefore, marking this revision as “new”
-»»»»» -------------------------------------------------------------------------
-»»»»» Testing 64c32ea18274f39b78ca74aa79d3c06045ecb269
-»»»»» Script output:
-
-»»»»» Script exit code: 0
-»»»»» Bisecting by exit code
-»»»»» Current exit code is 0, exit code on “old” revision is 1
-»»»»» Note that on “old” revision exit code is normally 0, you are probably trying to find when something was fixed
-»»»»» If exit code is not the same as on “old” revision, this revision will be marked as “new”
-»»»»» Therefore, marking this revision as “new”
-»»»»» -------------------------------------------------------------------------
-»»»»» Testing 6edb142f5f4cf83faf6fec889d784093e0524a97
-»»»»» Script output:
-
-»»»»» Script exit code: 0
-»»»»» Bisecting by exit code
-»»»»» Current exit code is 0, exit code on “old” revision is 1
-»»»»» Note that on “old” revision exit code is normally 0, you are probably trying to find when something was fixed
-»»»»» If exit code is not the same as on “old” revision, this revision will be marked as “new”
-»»»»» Therefore, marking this revision as “new”
-»»»»» -------------------------------------------------------------------------
-»»»»» Testing 136164427caf06d1c1f7ab971ab435e75683fc20
-»»»»» Script output:
-
-»»»»» Script exit code: 0
-»»»»» Bisecting by exit code
-»»»»» Current exit code is 0, exit code on “old” revision is 1
-»»»»» Note that on “old” revision exit code is normally 0, you are probably trying to find when something was fixed
-»»»»» If exit code is not the same as on “old” revision, this revision will be marked as “new”
-»»»»» Therefore, marking this revision as “new”
-»»»»» -------------------------------------------------------------------------
-»»»»» Testing fd5d5bdfb97930cfae1f9b2572d2ab6eea7ca92f
-»»»»» Script output:
-
-»»»»» Script exit code: 0
-»»»»» Bisecting by exit code
-»»»»» Current exit code is 0, exit code on “old” revision is 1
-»»»»» Note that on “old” revision exit code is normally 0, you are probably trying to find when something was fixed
-»»»»» If exit code is not the same as on “old” revision, this revision will be marked as “new”
-»»»»» Therefore, marking this revision as “new”
-fd5d5bdfb97930cfae1f9b2572d2ab6eea7ca92f is the first new commit
-commit fd5d5bdfb97930cfae1f9b2572d2ab6eea7ca92f
-Author: Fernando Correa de Oliveira <fernandocorrea@gmail.com>
-Date:   Thu Oct 18 15:07:57 2018 -0300
-
-    Make it verify (again) the stubed methods from roles, not implemented before, after the attributes composition (to check if it was implemented by a 'handles' from an attribute). Related to #2386. Needs test
-
- src/Perl6/Metamodel/ClassHOW.nqp           | 27 ++++++++++++++++++++++++++-
- src/Perl6/Metamodel/RoleToClassApplier.nqp |  9 ++++-----
- 2 files changed, 30 insertions(+), 6 deletions(-)
+¦«7e1ede4»:
+===SORRY!=== Error while compiling /tmp/c41aLFKGos
+Method 'm' must be implemented by C because it is required by a role R
+at /tmp/c41aLFKGos:1
+ «exit code = 1»

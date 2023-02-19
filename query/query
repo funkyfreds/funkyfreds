@@ -1,1 +1,1 @@
-role R { method m (*@a) { ... } }; class C does R { multi method m (*@a) {} }  ## https://github.com/funkyfreds/funkyfreds/issues/1
+role R { method m (*@a) { ... } }; class C does R { multi method m (*@a) {} } ## https://github.com/funkyfreds/funkyfreds/issues/1
